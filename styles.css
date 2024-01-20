@@ -90,6 +90,44 @@ a {
     background: #f9faf8;
 }
 
+/* Information section */
 
+.info-section h2 {
+    font-size: 36px;
+    color: #1f2937;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
 
+.info-section {
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 
+}
+
+.info .item {
+    border: 7px solid #3882f6;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    
+}
+
+.info {
+    width: min-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-section .wrapper {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+}
