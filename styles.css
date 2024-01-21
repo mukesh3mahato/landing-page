@@ -73,7 +73,8 @@ a {
     padding: 0;
 }
 
-.hero-text-area .sign-up {
+.hero-text-area .sign-up,
+.sign-up {
     color: #e5e7eb;
     background-color: #3882f6;
     padding: 8px 20px;
@@ -162,4 +163,35 @@ a {
     display: flex;
     justify-content: flex-end;
 
+}
+
+/* signup section styles */
+
+.signUp-section {
+    margin: 50px auto;
+    width: 70%;
+    padding: 15px 100px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.signUp-section .main-text {
+    margin-bottom: 6px;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+
+.signUp-section .subtext {
+    margin-top: 0;
+}
+
+.signUp-section .sign-up {
+    border: 2px solid white;
+    margin-top: 0;
 }
