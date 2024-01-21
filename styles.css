@@ -113,7 +113,7 @@ a {
     width: 200px;
     height: 200px;
     border-radius: 15px;
-    
+    flex-shrink: 1;
 }
 
 .info {
@@ -130,4 +130,36 @@ a {
     justify-content: space-between;
     
     flex-wrap: wrap;
+}
+
+/* quote section styling */
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 100px 0;
+
+}
+
+.quote-section .quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+
+}
+
+.quote-section .quote-author {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.quote-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.quote-container .quote-author {
+    display: flex;
+    justify-content: flex-end;
+
 }
