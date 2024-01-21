@@ -85,10 +85,12 @@ a {
     
 }
 
-.hero-image-area {
-    width: 250px;
-    height: 100px;
-    background: #f9faf8;
+.hero-image-area img{
+
+    width: 370px;
+    border-radius: 5px;
+    
+    /* background: #f9faf8; */
 }
 
 /* Information section */
@@ -109,8 +111,7 @@ a {
 
 }
 
-.info .item {
-    border: 7px solid #3882f6;
+.info img {
     width: 200px;
     height: 200px;
     border-radius: 15px;
@@ -195,3 +196,15 @@ a {
     border: 2px solid white;
     margin-top: 0;
 }
+
+/* footer section */
+
+.footer-section {
+    color: #e5e7eb;
+    width: 100%;
+    padding: 25px 0;
+    text-align: center;
+    background-color: #1f2937;
+    
+}
+
